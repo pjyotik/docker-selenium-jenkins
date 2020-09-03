@@ -137,7 +137,7 @@ examples:
      - run the command below:
      $ java -jar agent.jar -jnlpUrl http://localhost:8080/computer/DOCKER1/slave-agent.jnlp -secret 674f2dc3fab4fec49b709fbf651fe5f4970a8dbb2d9aa203a276e8e4966bafac -workDir "/c/Docker/slave_jenkins"
      
-     - Remove the master node and add docker credentials 
+     - Remove the master node and add docker credentials
   
     
    
