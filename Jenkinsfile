@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                bat "docker build -t='pkalita/selenium-docker' ."
+                bat "docker build -t=pkalita/selenium-docker ."
             }
         }
         stage('Push Image') {
