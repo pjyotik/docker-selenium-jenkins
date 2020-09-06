@@ -1,32 +1,7 @@
 version: "3"
 services:
-#  selhub:
-#    image: selenium/hub:3.141.59
-#    ports:
-#      - "4444:4444"
-#  chrome:
-#    image: selenium/node-chrome:3.141.59
-#    shm_size: '1gb'
-#    depends_on:
-#      - selhub
-#    environment:
-#      - HUB_HOST=selhub
-#     volumes:
-#       - ./downloads:/home/seluser/Downloads
-#  firefox:
-#    image: selenium/node-firefox:3.141.59
-#    shm_size: '1gb'
-#    depends_on:
-#      - selhub
-#    environment:
-#      - HUB_HOST=selhub
-#     volumes:
-#       - ./downloads:/home/seluser/Downloads
   search-module:
     image: pkalita/selenium-docker
-#    depends_on:
-#      - chrome
-#      - firefox
     environment:
       - BROWSER=chrome
       - HUB_HOST=192.168.0.11
